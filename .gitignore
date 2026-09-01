@@ -8,3 +8,33 @@ node_modules/
 /playwright/.auth/
 .env
 **/.env
+
+# Screenshots & Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+*.svg
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary & Log Files
+*.log
+*.tmp
+*.temp
+.cache/
+dist/
+build/
+
+# Node
+package-lock.json
+yarn.lock
