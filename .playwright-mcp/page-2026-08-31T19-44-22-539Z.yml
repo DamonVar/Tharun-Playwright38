@@ -1,0 +1,304 @@
+- generic [ref=e3]:
+  - navigation "Main navigation" [ref=e4]:
+    - generic [ref=e6]:
+      - link "QA Demo home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8]: QA
+        - generic [ref=e10]: Demo
+      - link "View products" [ref=e12] [cursor=pointer]:
+        - /url: /catalog
+        - text: Products
+      - generic [ref=e13]:
+        - link "Shopping cart with 0 items" [ref=e14] [cursor=pointer]:
+          - /url: /cart
+        - generic [ref=e260]:
+          - link "View orders for standard_user" [ref=e261] [cursor=pointer]:
+            - /url: /orders
+            - generic [ref=e265]: standard_user
+          - button "Logout" [ref=e266] [cursor=pointer]
+  - main [ref=e21]:
+    - generic [ref=e271]:
+      - generic [ref=e272]:
+        - heading "Product Catalog" [level=1] [ref=e273]
+        - paragraph [ref=e274]: Browse our complete selection of 21 products
+      - list "Product catalog" [ref=e275]:
+        - listitem [ref=e276]:
+          - link "View Batman Tshirt" [ref=e277] [cursor=pointer]:
+            - /url: /products/batman-tshirt
+            - generic [ref=e278]:
+              - img "Batman Tshirt" [ref=e280]
+              - generic [ref=e281]:
+                - heading "Batman Tshirt" [level=3] [ref=e282]
+                - paragraph [ref=e283]: samad sir product
+                - generic [ref=e284]:
+                  - generic [ref=e285]: $500.00
+                  - button "Add Batman Tshirt to cart" [ref=e286]: Add
+        - listitem [ref=e291]:
+          - link "View Bluetooth Speaker" [ref=e292] [cursor=pointer]:
+            - /url: /products/bluetooth-speaker
+            - generic [ref=e293]:
+              - img "Bluetooth Speaker" [ref=e295]
+              - generic [ref=e296]:
+                - heading "Bluetooth Speaker" [level=3] [ref=e297]
+                - paragraph [ref=e298]: Portable Bluetooth speaker with 360-degree sound and 12-hour battery life.
+                - generic [ref=e299]:
+                  - generic [ref=e300]: $159.99
+                  - button "Add Bluetooth Speaker to cart" [ref=e301]: Add
+        - listitem [ref=e306]:
+          - link "View Desk Lamp" [ref=e307] [cursor=pointer]:
+            - /url: /products/desk-lamp
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - img "Desk Lamp" [ref=e310]
+                - status "Out of stock" [ref=e311]: Out of Stock
+              - generic [ref=e312]:
+                - heading "Desk Lamp" [level=3] [ref=e313]
+                - paragraph [ref=e314]: Adjustable LED desk lamp
+                - generic [ref=e315]:
+                  - generic [ref=e316]: $34.99
+                  - button "Add Desk Lamp to cart" [disabled] [ref=e317]: Add
+        - listitem [ref=e322]:
+          - link "View Desk Organizer" [ref=e323] [cursor=pointer]:
+            - /url: /products/desk-organizer
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - img "Desk Organizer" [ref=e326]
+                - status "Low stock" [ref=e327]: Low Stock
+              - generic [ref=e328]:
+                - heading "Desk Organizer" [level=3] [ref=e329]
+                - paragraph [ref=e330]: Compact desktop storage tray - updated
+                - generic [ref=e331]:
+                  - generic [ref=e332]: $18.50
+                  - button "Add Desk Organizer to cart" [ref=e333]: Add
+        - listitem [ref=e338]:
+          - link "View Fitness Tracker" [ref=e339] [cursor=pointer]:
+            - /url: /products/fitness-tracker
+            - generic [ref=e340]:
+              - img "Fitness Tracker" [ref=e342]
+              - generic [ref=e343]:
+                - heading "Fitness Tracker" [level=3] [ref=e344]
+                - paragraph [ref=e345]: Water-resistant fitness tracker with sleep monitoring and smartphone notifications.
+                - generic [ref=e346]:
+                  - generic [ref=e347]: $89.99
+                  - button "Add Fitness Tracker to cart" [ref=e348]: Add
+        - listitem [ref=e353]:
+          - link "View Laptop Backpack" [ref=e354] [cursor=pointer]:
+            - /url: /products/laptop-backpack
+            - generic [ref=e355]:
+              - img "Laptop Backpack" [ref=e357]
+              - generic [ref=e358]:
+                - heading "Laptop Backpack" [level=3] [ref=e359]
+                - paragraph [ref=e360]: Durable laptop backpack with multiple compartments and USB charging port.
+                - generic [ref=e361]:
+                  - generic [ref=e362]: $49.99
+                  - button "Add Laptop Backpack to cart" [ref=e363]: Add
+        - listitem [ref=e368]:
+          - link "View Laptop Holder" [ref=e369] [cursor=pointer]:
+            - /url: /products/laptop-holder
+            - generic [ref=e370]:
+              - img "Laptop Holder" [ref=e372]
+              - generic [ref=e373]:
+                - heading "Laptop Holder" [level=3] [ref=e374]
+                - paragraph
+                - generic [ref=e375]:
+                  - generic [ref=e376]: $20.00
+                  - button "Add Laptop Holder to cart" [ref=e377]: Add
+        - listitem [ref=e382]:
+          - link "View Mechanical Keyboard" [ref=e383] [cursor=pointer]:
+            - /url: /products/mechanical-keyboard
+            - generic [ref=e384]:
+              - img "Mechanical Keyboard" [ref=e386]
+              - generic [ref=e387]:
+                - heading "Mechanical Keyboard" [level=3] [ref=e388]
+                - paragraph [ref=e389]: RGB mechanical gaming keyboard with customizable keys and wrist rest.
+                - generic [ref=e390]:
+                  - generic [ref=e391]: $149.99
+                  - button "Add Mechanical Keyboard to cart" [ref=e392]: Add
+        - listitem [ref=e397]:
+          - link "View Power Bank" [ref=e398] [cursor=pointer]:
+            - /url: /products/power-bank
+            - generic [ref=e399]:
+              - img "Power Bank" [ref=e401]
+              - generic [ref=e402]:
+                - heading "Power Bank" [level=3] [ref=e403]
+                - paragraph [ref=e404]: 20000mAh power bank with fast charging and multiple USB ports.
+                - generic [ref=e405]:
+                  - generic [ref=e406]: $59.99
+                  - button "Add Power Bank to cart" [ref=e407]: Add
+        - listitem [ref=e412]:
+          - link "View Smart Watch" [ref=e413] [cursor=pointer]:
+            - /url: /products/smart-watch
+            - generic [ref=e414]:
+              - img "Smart Watch" [ref=e416]
+              - generic [ref=e417]:
+                - heading "Smart Watch" [level=3] [ref=e418]
+                - paragraph [ref=e419]: Feature-rich smartwatch with heart rate monitoring, GPS, and water resistance.
+                - generic [ref=e420]:
+                  - generic [ref=e421]: $299.99
+                  - button "Add Smart Watch to cart" [ref=e422]: Add
+        - listitem [ref=e427]:
+          - link "View Snoopy Office Mug" [ref=e428] [cursor=pointer]:
+            - /url: /products/snoopy-office-mug
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - img "Snoopy Office Mug" [ref=e431]
+                - status "Out of stock" [ref=e432]: Out of Stock
+              - generic [ref=e433]:
+                - heading "Snoopy Office Mug" [level=3] [ref=e434]
+                - paragraph [ref=e435]: Start your day with a smile with our charming Snoopy design office mug! Perfect for coffee, tea, or any beverage of your choice, this delightful mug features the beloved Peanuts character in playful poses that bring a touch of whimsy to your workspace. Made from high-quality ceramic, it’s both microwave and dishwasher safe, ensuring convenience for your busy schedule. Whether you're at home or in the office, let Snoopy inspire your creativity and brighten your day with every sip!
+                - generic [ref=e436]:
+                  - generic [ref=e437]: $10.00
+                  - button "Add Snoopy Office Mug to cart" [disabled] [ref=e438]: Add
+        - listitem [ref=e443]:
+          - link "View Test" [ref=e444] [cursor=pointer]:
+            - /url: /products/test
+            - generic [ref=e445]:
+              - img "Test" [ref=e447]
+              - generic [ref=e448]:
+                - heading "Test" [level=3] [ref=e449]
+                - paragraph [ref=e450]: Test
+                - generic [ref=e451]:
+                  - generic [ref=e452]: $120.00
+                  - button "Add Test to cart" [ref=e453]: Add
+        - listitem [ref=e458]:
+          - link "View Travel Charger Mini" [ref=e459] [cursor=pointer]:
+            - /url: /products/travel-charger-mini
+            - generic [ref=e460]:
+              - img "Travel Charger Mini" [ref=e462]
+              - generic [ref=e463]:
+                - heading "Travel Charger Mini" [level=3] [ref=e464]
+                - paragraph [ref=e465]: Compact multi-port charging adapter
+                - generic [ref=e466]:
+                  - generic [ref=e467]: $29.50
+                  - button "Add Travel Charger Mini to cart" [ref=e468]: Add
+        - listitem [ref=e473]:
+          - link "View Travel Mug" [ref=e474] [cursor=pointer]:
+            - /url: /products/travel-mug
+            - generic [ref=e475]:
+              - generic [ref=e476]:
+                - img "Travel Mug" [ref=e477]
+                - status "Low stock" [ref=e478]: Low Stock
+              - generic [ref=e479]:
+                - heading "Travel Mug" [level=3] [ref=e480]
+                - paragraph [ref=e481]: Insulated stainless steel travel mug
+                - generic [ref=e482]:
+                  - generic [ref=e483]: $24.99
+                  - button "Add Travel Mug to cart" [ref=e484]: Add
+        - listitem [ref=e489]:
+          - link "View USB fan" [ref=e490] [cursor=pointer]:
+            - /url: /products/usb-fan
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - img "USB fan" [ref=e493]
+                - status "Out of stock" [ref=e494]: Out of Stock
+              - generic [ref=e495]:
+                - heading "USB fan" [level=3] [ref=e496]
+                - paragraph [ref=e497]: Deskfan powered by USB
+                - generic [ref=e498]:
+                  - generic [ref=e499]: $6.70
+                  - button "Add USB fan to cart" [disabled] [ref=e500]: Add
+        - listitem [ref=e505]:
+          - link "View Webcam" [ref=e506] [cursor=pointer]:
+            - /url: /products/webcam
+            - generic [ref=e507]:
+              - img "Webcam" [ref=e509]
+              - generic [ref=e510]:
+                - heading "Webcam" [level=3] [ref=e511]
+                - paragraph [ref=e512]: 1080p HD webcam with built-in microphone and privacy cover.
+                - generic [ref=e513]:
+                  - generic [ref=e514]: $69.99
+                  - button "Add Webcam to cart" [ref=e515]: Add
+        - listitem [ref=e520]:
+          - link "View Wireless Headphones" [ref=e521] [cursor=pointer]:
+            - /url: /products/wireless-headphones
+            - generic [ref=e522]:
+              - img "Wireless Headphones" [ref=e524]
+              - generic [ref=e525]:
+                - heading "Wireless Headphones" [level=3] [ref=e526]
+                - paragraph [ref=e527]: High-quality wireless headphones with noise cancellation and 20-hour battery life.
+                - generic [ref=e528]:
+                  - generic [ref=e529]: $199.99
+                  - button "Add Wireless Headphones to cart" [ref=e530]: Add
+        - listitem [ref=e535]:
+          - link "View Wireless Headset" [ref=e536] [cursor=pointer]:
+            - /url: /products/wireless-headset
+            - generic [ref=e537]:
+              - img "Wireless Headset" [ref=e539]
+              - generic [ref=e540]:
+                - heading "Wireless Headset" [level=3] [ref=e541]
+                - paragraph [ref=e542]: This is a noise-cancelling wireless headset
+                - generic [ref=e543]:
+                  - generic [ref=e544]: $100.00
+                  - button "Add Wireless Headset to cart" [ref=e545]: Add
+        - listitem [ref=e550]:
+          - link "View Wireless Mouse" [ref=e551] [cursor=pointer]:
+            - /url: /products/wireless-mouse
+            - generic [ref=e552]:
+              - generic [ref=e553]:
+                - img "Wireless Mouse" [ref=e554]
+                - status "Out of stock" [ref=e555]: Out of Stock
+              - generic [ref=e556]:
+                - heading "Wireless Mouse" [level=3] [ref=e557]
+                - paragraph [ref=e558]: Ergonomic wireless mouse with precision tracking and long battery life.
+                - generic [ref=e559]:
+                  - generic [ref=e560]: $39.99
+                  - button "Add Wireless Mouse to cart" [disabled] [ref=e561]: Add
+        - listitem [ref=e566]:
+          - link "View airpods" [ref=e567] [cursor=pointer]:
+            - /url: /products/airpods
+            - generic [ref=e568]:
+              - generic [ref=e569]:
+                - img "airpods" [ref=e570]
+                - status "Out of stock" [ref=e571]: Out of Stock
+              - generic [ref=e572]:
+                - heading "airpods" [level=3] [ref=e573]
+                - paragraph [ref=e574]: Air pods Air pods
+                - generic [ref=e575]:
+                  - generic [ref=e576]: $10.32
+                  - button "Add airpods to cart" [disabled] [ref=e577]: Add
+        - listitem [ref=e582]:
+          - link "View bàn phím" [ref=e583] [cursor=pointer]:
+            - /url: /products/bn-phm
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - img "bàn phím" [ref=e586]
+                - status "Out of stock" [ref=e587]: Out of Stock
+              - generic [ref=e588]:
+                - heading "bàn phím" [level=3] [ref=e589]
+                - paragraph
+                - generic [ref=e590]:
+                  - generic [ref=e591]: $100,000.00
+                  - button "Add bàn phím to cart" [disabled] [ref=e592]: Add
+  - contentinfo [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - link "QA Demo" [ref=e29] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e30]: QA
+            - generic [ref=e32]: Demo
+          - paragraph [ref=e33]: An e-commerce testing platform designed for automated testing purposes.
+        - generic [ref=e34]:
+          - heading "Quick Links" [level=3] [ref=e35]
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Products" [ref=e38] [cursor=pointer]:
+                - /url: /catalog
+            - listitem [ref=e39]:
+              - link "Cart" [ref=e40] [cursor=pointer]:
+                - /url: /cart
+        - generic [ref=e43]:
+          - heading "Test Accounts" [level=3] [ref=e44]
+          - list [ref=e45]:
+            - listitem [ref=e46]: "Standard: standard_user / standard123"
+            - listitem [ref=e47]: "Locked: locked_user / locked123"
+            - listitem [ref=e48]: "Admin: admin_user / $Admin01092026"
+      - generic [ref=e49]:
+        - paragraph [ref=e50]: © 2026 QA Demo. Built for testing purposes.
+        - paragraph [ref=e51]:
+          - text: Developed by
+          - link "Visit ManiG's website" [ref=e52] [cursor=pointer]:
+            - /url: https://ManiG.dev
+            - text: ManiG
+          - text: with
+          - img "love" [ref=e53]: ❤
